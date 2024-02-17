@@ -14,6 +14,10 @@
 <style>
     @import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap&effect=shadow-multiple|fire-animation');
 
+    html {
+        scroll-behavior: smooth;
+    }
+    
     .html, body {
     height: 100%;
     margin: 0;
@@ -122,20 +126,20 @@
 
     <div>
     <header class="first-header">
-      <a href="#homie" class="header-text" onclick="scrollToTop()">Home</a>
-      <a href="#aboutMe" id="about-link" class="header-text" onclick="scrollToAbout()">About Me</a>
-      <a href="#contactie" class="header-text">Hobbies</a>
+      <a href="#homie" class="header-text" >Home</a>
+      <a href="#aboutMe" id="about-link" class="header-text" >About Me</a>
+      <a href="#hobbiees" class="header-text">Hobbies</a>
     </header>
     </div>
 
-    <header class="second-header">
+    <header id="homie" class="second-header">
         <div class="gif-container">
         <h1 class="font-effect-fire-animation"> W e l c o m e &nbsp; t o <br> M y &nbsp; P e r s o n a l &nbsp;P r o f i l e</h1>
         <a class="button" href="#aboutMe">About Me</a>
         </div>
     </header>
 
-    <header class="third-header" id="about">
+    <header class="third-header" id="aboutMe">
 
           <h2 class="font-effect-fire-animation"> About Me:</h2>
           <p class="aboutme"> My Name is Byron Louis A. Rabajante <br> I am 20 Years Old. Born on <span id="birthdate"></span>. <br> Currently an IT Student in Asia Pacific College</p>
