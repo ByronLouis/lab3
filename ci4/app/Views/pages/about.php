@@ -1,1 +1,1 @@
-My About Page
+About
